@@ -5,7 +5,7 @@ a project that experiments with [sandpiles](https://en.wikipedia.org/wiki/Abelia
 over various families of [hypergraphs](https://en.wikipedia.org/wiki/Hypergraph) that can be represented by grids.
 
 Of particular interest, I would like to explore:
-- Sandpiles over oroidal hypergraphs with various kinds of hyperedges.
+- Sandpiles over toroidal hypergraphs with various kinds of hyperedges.
   - A hyperedge of size 5 centered on each vertex (the [Von Neumann neighbourhood](https://en.wikipedia.org/wiki/Von_Neumann_neighborhood) and a sink vertex).
   - A hyperedge of size 9 centered on each vertex (the [Moore neighbourhood](https://en.wikipedia.org/wiki/Moore_neighborhood) and a sink vertex).
 - Sandpiles over chess boards: given a chess piece, P (e.g. knight), the neighbourhood would comprise all the possible
