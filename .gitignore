@@ -1,0 +1,167 @@
+# ==============================
+# .NET & C# Standard Ignores
+# ==============================
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+[Ll]ogs/
+[Oo]ut/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+# Uncomment if you have a packages directory at the solution level
+#!/packages
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*_i.asm
+*_p.asm
+
+# Others
+*.njsproj
+
+# ==============================
+# JetBrains Rider Specific Ignores
+# ==============================
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# User-specific Rider settings
+*.userprefs
+
+# ==============================
+# macOS Specific Ignores
+# ==============================
+
+# macOS Finder folder attributes
+.DS_Store
+
+# macOS specific temporary files
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ==============================
+# IDE Specific Ignores
+# ==============================
+
+# Visual Studio Code
+.vscode/
+
+# ==============================
+# Other Potential Ignores
+# ==============================
+
+# Backup & report files
+*.bak
+*.backup
+*.temp
+*.swp
+*~
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework migration files
+*Migrations/
+
+# Publish directory
+publish/
+
+# ======================================
+# End of .gitignore for C# in Rider macOS
+# ======================================
