@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hypergraph\Hypergraph.csproj" />
-    <ProjectReference Include="..\Sandpile\Sandpile.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renderer", "Renderer\Render
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaUI", "AvaloniaUI\AvaloniaUI.csproj", "{B99AD96B-1385-45A9-BD54-04104E5CC3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypergraph.Tests", "Hypergraph.Tests\Hypergraph.Tests.csproj", "{007FDE83-9B05-44EF-8EBD-8432702B9BB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B99AD96B-1385-45A9-BD54-04104E5CC3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99AD96B-1385-45A9-BD54-04104E5CC3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99AD96B-1385-45A9-BD54-04104E5CC3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007FDE83-9B05-44EF-8EBD-8432702B9BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007FDE83-9B05-44EF-8EBD-8432702B9BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007FDE83-9B05-44EF-8EBD-8432702B9BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007FDE83-9B05-44EF-8EBD-8432702B9BB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
