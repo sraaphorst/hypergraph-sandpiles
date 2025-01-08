@@ -8,11 +8,18 @@ namespace Hypergraph.Tests.Domain;
 public class HyperedgeTests
 {
     [Fact]
+    public void VertexSetCannotBeNull()
+    {
+        IEnumerable<Vertex> vertices = null;
+        Assert.Throws<ArgumentNullException>(() => new Hyperedge(vertices));    
+    }
+    
+    [Fact]
     public void VertexSetCannotBeEmpty()
     {
         Assert.Throws<ArgumentException>(() => new Hyperedge([]));
     }
-
+    
     [Fact]
     public void VertexSetCannotContainVerticesWithSameId()
     {
